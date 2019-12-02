@@ -1,0 +1,25 @@
+{
+  "name": "Technokeens Projects",
+  "version": "1.1",
+  "description":
+    "Shows off technokeens projects desktop notifications, which are \"toast\" windows that pop up on the desktop.",
+  "icons": {
+      "16": "file5d975155ab6d5-favicon.png",
+      "48": "file5d975155ab6d5-favicon.png",
+      "128": "file5d975155ab6d5-favicon.png"},
+  "permissions": [
+    "notifications",
+    "contextMenus",
+   "https://www.technokeens.com/projects/*"
+  ],
+
+
+  "options_page": "options.html",
+  "background": { "scripts": ["jquery.min.js","background.js"] },
+  "manifest_version": 2,
+
+
+  "web_accessible_resources": [
+    "file5d975155ab6d5-favicon.png"
+  ]
+}
